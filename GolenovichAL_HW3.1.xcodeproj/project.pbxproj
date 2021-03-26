@@ -11,6 +11,7 @@
 		A810CE41260CEFE700AB90CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A810CE40260CEFE700AB90CD /* ContentView.swift */; };
 		A810CE43260CEFEA00AB90CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A810CE42260CEFEA00AB90CD /* Assets.xcassets */; };
 		A810CE46260CEFEA00AB90CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A810CE45260CEFEA00AB90CD /* Preview Assets.xcassets */; };
+		A810CE4F260CF3BE00AB90CD /* ColorCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A810CE4E260CF3BE00AB90CD /* ColorCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A810CE42260CEFEA00AB90CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A810CE45260CEFEA00AB90CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A810CE47260CEFEA00AB90CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A810CE4E260CF3BE00AB90CD /* ColorCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				A810CE3E260CEFE700AB90CD /* GolenovichAL_HW3_1App.swift */,
 				A810CE40260CEFE700AB90CD /* ContentView.swift */,
+				A810CE4E260CF3BE00AB90CD /* ColorCircle.swift */,
 				A810CE42260CEFEA00AB90CD /* Assets.xcassets */,
 				A810CE47260CEFEA00AB90CD /* Info.plist */,
 				A810CE44260CEFEA00AB90CD /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				A810CE41260CEFE700AB90CD /* ContentView.swift in Sources */,
 				A810CE3F260CEFE700AB90CD /* GolenovichAL_HW3_1App.swift in Sources */,
+				A810CE4F260CF3BE00AB90CD /* ColorCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
