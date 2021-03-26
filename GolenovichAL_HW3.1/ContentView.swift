@@ -14,6 +14,12 @@ enum CurrentLight: Double {
 
 struct ContentView: View {
     
+    @State private var buttonText = "START"
+    @State private var currentLight = CurrentLight.red
+    @State private var redLight = ColorCircle(color: .red, opacity: 0.3)
+    @State private var orangeLight = ColorCircle(color: .orange, opacity: 0.3)
+    @State private var greenLight = ColorCircle(color: .green, opacity: 0.3)
+    
     var body: some View {
         ZStack{
             Color(.black)
@@ -28,12 +34,6 @@ struct ContentView: View {
             .padding()
         }
     }
-    
-    @State private var buttonText = "START"
-    @State private var currentLight = CurrentLight.red
-    @State private var redLight = ColorCircle(color: .red, opacity: 0.3)
-    @State private var orangeLight = ColorCircle(color: .orange, opacity: 0.3)
-    @State private var greenLight = ColorCircle(color: .green, opacity: 0.3)
     
     private var buttonAction: some View {
         Button(action: {
