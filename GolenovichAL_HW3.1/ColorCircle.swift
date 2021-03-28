@@ -10,7 +10,7 @@ import SwiftUI
 struct ColorCircle: View {
     
     let color: Color
-    var opacity: Double
+    let opacity: Double
 
     
     var body: some View {
